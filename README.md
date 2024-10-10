@@ -9,7 +9,7 @@ In many industries, including customer support and entertainment, understanding 
 
 ## Dataset
 
-* **RAVDESS Dataset**: The primary dataset for classification is the RAVDESS emotional speech dataset, which includes 24 professional actors (12 female, 12 male) vocalizing two lexically-matched statements in a neutral North American accent. Emotions include *neutral*, *calm*, *happy*, *sad*, *angry*, *fearful*, *disgust*, and *surprised*. The dataset can be found [here](https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio) or [here](https://smartlaboratory.org/ravdess/).
+* **RAVDESS Dataset**: The primary dataset for classification is the RAVDESS emotional speech dataset, which includes 24 professional actors (12 female, 12 male) vocalizing two lexically-matched statements in a neutral North American accent. Emotions include *neutral*, *calm*, *happy*, *sad*, *angry*, *fearful*, *disgust*, and *surprised*. The dataset can be found [here](https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio).
 
 ## Process
 
@@ -35,8 +35,7 @@ This project is divided into several stages:
 
 To run this project, follow these steps:
 
-1. **Convert Audio Files**: Convert `.mp3` files to `.wav` using `convert.py`.
-2. **Organize Data**: Use `extract_data.py` to organize the RAVDESS dataset into emotion-labeled folders.
+1.. **Organize Data**: Use `extract_data.py` to organize the RAVDESS dataset into emotion-labeled folders.
 3. **Speaker Diarization**: Use `audio_speaker_segmentation.py` to segment the audio based on speakers.
 4. **Data Augmentation**: Optionally, run `data_augmentation.py` to enhance the dataset.
 5. **Emotion Classification**: Run `emotion_classifier.py` to classify emotions using machine learning models.
