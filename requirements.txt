@@ -1,0 +1,25 @@
+# Core Libraries
+numpy==1.24.3
+pandas==2.0.3
+scipy==1.10.1
+librosa==0.10.0
+pydub==0.25.1
+webrtcvad==2.0.10
+soundfile==0.12.1
+scikit-learn==1.2.2
+xgboost==1.7.4
+keras==2.13.1
+tensorflow-macos==2.13.0
+torch==2.0.1
+torchaudio==2.0.1
+transformers==4.31.0
+lightgbm==3.3.5
+audiomentations==0.29.0
+matplotlib==3.7.2
+seaborn==0.12.2
+os-sys==2.1
+pathlib2==2.3.7
+joblib==1.2.0
+tqdm==4.65.0
+six==1.16.0
+protobuf==3.20.1
